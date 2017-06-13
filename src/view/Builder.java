@@ -61,7 +61,9 @@ public class Builder extends javax.swing.JFrame {
         setTitle("Arcsight Helper");
         jCheckBoxMenuItem1.setVisible(false);
         jCheckBoxMenuItem2.setVisible(false);
+        jMenuItem1.setVisible(false);
         rDBMSIface = testConnectionJPanel;
+        
 
         displayGui();
 
