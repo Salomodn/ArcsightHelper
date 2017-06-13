@@ -27,6 +27,10 @@ jar -cmf manifest.mf Arcsight_Helper.jar *
 
 An executable jar file is created
 
+To run the program, type
+
+java -jar Arcsight_Helper.jar
+
 
 Knowledge on how to work with Arcsight SmartConnectors
 
