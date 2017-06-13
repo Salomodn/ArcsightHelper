@@ -1,10 +1,6 @@
 # ArcsightHelper
-Requirements
-
-JRE 7 and above is needed See the jar file in /dist/merged
 
 Knowledge on how to work with Arcsight SmartConnectors
-
 
 To create a new time or id-based connector click
 
