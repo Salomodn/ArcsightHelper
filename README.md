@@ -32,7 +32,7 @@ To run the program, type
 java -jar Arcsight_Helper.jar
 ```
 
-Knowledge on how to work with Arcsight SmartConnectors
+Knowledge on how to work with Arcsight SmartConnectors is required.
 
 To create a new time or id-based connector click
 
