@@ -1,5 +1,33 @@
 # ArcsightHelper
 
+<strong>How to build and run ArcsightHelper</strong> 
+
+
+Go to Project_Home directory
+
+Open terminal / commandline 
+
+mkdir Arcsight_Helper
+
+echo "Main-class: arcsighthelper.FWriter" > bin/test.mf
+
+cp -R src/images Arcsight_Helper
+
+ls  src/arcsighthelper/*.java  src/listener/*.java src/logic/*.java src/util/*.java src/view/*.java > filesList.txt
+
+javac -cp @filesList.txt -d Arcsight_Helper
+
+OR
+
+javac -cp ".:lib/*" -d Arcsight_Helper $(find ./src/* | grep .java)
+
+cd Arcsight_Helper
+
+jar -cmf manifest.mf Arcsight_Helper.jar *
+
+An executable jar file is created
+
+
 Knowledge on how to work with Arcsight SmartConnectors
 
 To create a new time or id-based connector click
