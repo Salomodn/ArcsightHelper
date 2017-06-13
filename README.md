@@ -3,9 +3,7 @@
 <strong>How to build and run ArcsightHelper</strong> 
 
 
-Go to Project_Home directory
-
-Open terminal / commandline, type 
+Using  terminal / commandline, navigate to Project_Home directory. Type: 
 ```
 mkdir Arcsight_Helper
 
