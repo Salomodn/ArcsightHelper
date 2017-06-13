@@ -5,7 +5,7 @@
 
 Go to Project_Home directory
 
-Open terminal / commandline 
+Open terminal / commandline, type 
 ```
 mkdir Arcsight_Helper
 
