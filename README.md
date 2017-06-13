@@ -14,13 +14,15 @@ echo "Main-class: arcsighthelper.FWriter" > Arcsight_Helper/manifest.mf
 cp -R src/images Arcsight_Helper
 
 ls  src/arcsighthelper/*.java  src/listener/*.java src/logic/*.java src/util/*.java src/view/*.java > filesList.txt
-
+```
+```
 javac -cp @filesList.txt -d Arcsight_Helper
 ```
 OR
 ```
 javac -cp ".:lib/*" -d Arcsight_Helper $(find ./src/* | grep .java)
-
+```
+```
 cd Arcsight_Helper
 
 jar -cmf manifest.mf Arcsight_Helper.jar *
